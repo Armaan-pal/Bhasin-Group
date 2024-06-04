@@ -16,16 +16,54 @@ div, section, span, ul, li, a, header{
     box-sizing: border-box;
 }
 
+img{
+    width:100%;
+    height:auto;
+}
+
+h1{
+    font-size: 60px;
+}
+
+p{
+    font-size: 15px;
+}
+
+h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #212D45;
+    text-align: center;
+}
+
+h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #212D45;
+
+}
+
+h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #212D45;
+
+}
+
 /*css reset*/
 
 header{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 20px 50px;
     align-items: center;
-    position: fixed;
+    position: relative;
     z-index: 999;
+    flex-direction: column;
+}
+
+.mainmenu{
+    margin-top: 20px;
 }
 
 #menu li{
@@ -37,5 +75,261 @@ header{
 #menu li a{
     color: #fff;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
+}
+
+.txt_btn{
+    color: #CE9E51;
+    font-weight: 200;
+}
+
+.relative{
+    position: relative;
+}
+
+/* .page-width{
+    margin:0 80px;
+} */
+
+.Bhasinmenu{
+    background-image: url('images/hero-image-min.jpg');
+    height: 100vh;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imghero{
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #212D45 100%, #FFFFFF 100%);
+    opacity: 0.87;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.icons a img{
+    max-width: 115px;
+    width: 100%;
+    height: auto;
+}
+
+.allicons svg{
+    width: 25px;
+    height: 25px;
+    fill:#ffc03d;
+}
+
+.allicons{
+    display: flex;
+    gap: 9.5px;
+}
+
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-height: 120px;
+    height: 120px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(235, 235, 235, 0.24);
+    border-bottom-style: solid;
+}
+
+a{
+    text-decoration: none;
+}
+
+.icons p{
+    color: #ffc03d;
+}
+
+.icons a{
+    color: #fff;
+}
+
+/* about us */
+
+.abouttxt_img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+}
+
+.abtbnkpic {
+    width: 275px;
+    height: auto;
+}
+
+.aboutbnk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 33px;
+}
+
+section#about {
+    padding: 80px;
+}
+
+section#why_choose_us {
+    display: flex;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.excellecne {
+    background: #CE9E51;
+    padding: 50px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    justify-content: center;
+    align-items: center;
+}
+
+.why_txt{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    text-align: center;
+    color: #fff;
+}
+
+.why_txt p{
+    line-height: 1.8;
+}
+
+.why_btn a{
+    color: #000000;
+}
+
+.why_txt h4, .why_txt h2{
+    color: #FFFFFF;
+}
+
+.why_btn {
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 13px 13px 13px 13px;
+    width: fit-content;
+    padding: 15px 45px;
+}
+
+.why_btn svg{
+    width: 19px;
+    height: 19px;
+}
+
+.why_call{
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+.svgttl img{
+    width: 91.5px;
+    height: 91.5px;
+    margin-bottom: 15px;
+}
+
+.projcard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    gap: 30px;
+}
+
+.ourprojhead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   gap: 16px;
+    margin: 80px 0;
+}
+
+.ourprojsvg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.svgttl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ourprojsvg p{
+    text-align: center;
+    line-height: 1.8;
+}
+
+.imgcard{
+    width: 312px;
+    height: 314px;
+}
+
+.imgcard img{
+    height: -webkit-fill-available;
+}
+
+.revttl {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.revttl h2{
+    text-align: center;
+    line-height: 1.4;
+}
+
+.revimg {
+    display: flex;
+    justify-content: center;
+    gap:17px;
+    align-items: center;
+}
+
+#reviews{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.gmap{
+    padding: 0 20px;
+    width: 50%;
+}
+
+.map_detail {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.detail{
+    width: 50%;
 }
