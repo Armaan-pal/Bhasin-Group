@@ -560,7 +560,61 @@ footer nav{
         color: #fff;
     }
 
+    .floatwid {
+        cursor: pointer;
+        display: inline-block;
+        font-size: 13px;
+        padding: 13px 10px 13px 11px;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: middle;
+        width: max-content;
+        writing-mode: vertical-lr;
+      }
+
+      #floatingwidget{
+        position: fixed;
+        z-index: 9;
+        width: auto;
+        right: 0px;
+        bottom: 20%;
+      }
+
+      .floatwid a{
+        text-orientation: upright;
+        font-weight: bolder;
+        font-size: 19px;
+        color: #ffc03d;
+        background: #fff;
+        width: 100%;
+        display: flex;
+        border-radius: 50%;
+      }
+
+      .floatwid a svg{
+        width: 49px;
+  height: 49px;
+      }
+      
+      .floatwid:hover {
+        background-color: #f7fafa;
+      }
+      
+      .floatwid:focus {
+        border-color: #008296;
+        box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+        outline: 0;
+      }
+
 @media (max-width:768px) {
+
+    
+    #floatingwidget{
+        top: 50%;
+      }
 
     .call_num_stly{
         margin-top: 93px;
