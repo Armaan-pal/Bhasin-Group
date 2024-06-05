@@ -374,7 +374,7 @@ section#why_choose_us {
 }
 
 #reviews{
-    padding-top: 40px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -538,7 +538,49 @@ footer nav{
     display: flex;
     gap: 19px;
 }
+
+.iconH{
+    display: none ;
+}
+
+.active {
+    color: #ffc03d;
+}
+
+#menu li a:hover {
+    color: #ffc03d;
+}
+
+
+#menu .hmen{
+    color: #ffc03d;
+    }
+
 @media (max-width:768px) {
+
+    .iconH{
+        display: block;
+   
+    }
+
+    .iconH:before {
+        transition: all .4s ease;
+        transform: rotate(0deg);
+        display: block;
+    }
+
+    .phonenum,.phoneanc,.mainmenu{
+    display: none ;
+    }
+
+    .icons {
+        border-bottom: unset;
+    }
+
+    .txt_btn h3 {
+        line-height: 1.6;
+    }
+
     .projcard {
         flex-direction: column;
     }
@@ -580,6 +622,28 @@ footer nav{
         padding: 25px 25px 25px 25px;
     }
 
+    .mainmenu{
+        background: #ffff;
+        margin-top: 0;
+        width: 100%;
+    }
+
+    .mainmenu ul{
+        display: flex;
+        flex-direction: column;
+        padding-left: 19px;
+        position: absolute;
+        background: #fff;
+        width: 100%;
+    }
+
+    #menu li a {
+        color: #4b4f58;
+    }
+
+    .fa-bars:before{
+        color: #ffc03d;
+    }
     .map_detail{
         flex-direction: column;
     }

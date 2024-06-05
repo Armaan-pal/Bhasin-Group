@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Bhasin Group</title>
 </head>
 
@@ -18,11 +19,11 @@
             <header>
                 <div class="icons">
                     <a href="#"><img src="/images/cropped-BhasinGroup_Logo_1-removebg-preview-1.png" alt="logo"></a>
-                    <p>
+                    <p class="phonenum">
                         Phone:
                         <a href="tel:+91 9999082528">+91 9999082528</a>
                     </p>
-                    <div class="allicons">
+                    <div class="allicons phoneanc">
                         <a href="" style="--color: #557dbc; --background-color: transparent;" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                                 <path
@@ -59,11 +60,15 @@
                             </span>
                         </a>
                     </div>
+
+                    <a href="javascript:void(0);" class="iconH" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                      </a>
                 </div>
 
-                <div class="mainmenu">
+                <div id="mainmenum" class="mainmenu">
                     <ul id="menu">
-                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#home" class="hmen">HOME</a></li>
                         <li><a href="#about">ABOUT US</a></li>
                         <li><a href="#why_choose_us">WHY CHOOSE US</a></li>
                         <li><a href="#ourservice">OUR SERVICE</a></li>
