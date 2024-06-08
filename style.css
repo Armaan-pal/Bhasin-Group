@@ -1,49 +1,55 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     font-size: 100%;
     font-family: sans-serif;
 }
 
-div, section, span, ul, li, a, header{
+div,
+section,
+span,
+ul,
+li,
+a,
+header {
     box-sizing: border-box;
 }
 
-img{
-    width:100%;
-    height:auto;
+img {
+    width: 100%;
+    height: auto;
 }
 
-h1{
+h1 {
     font-size: 60px;
 }
 
-p{
+p {
     font-size: 15px;
 }
 
-h2{
+h2 {
     font-size: 40px;
     margin-bottom: 20px;
     color: #212D45;
     text-align: center;
 }
 
-h3{
+h3 {
     font-size: 24px;
     margin-bottom: 20px;
     color: #212D45;
 
 }
 
-h4{
+h4 {
     font-size: 20px;
     margin-bottom: 20px;
     color: #212D45;
@@ -52,7 +58,7 @@ h4{
 
 /*css reset*/
 
-header{
+header {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -62,46 +68,46 @@ header{
     flex-direction: column;
 }
 
-.mainmenu{
+.mainmenu {
     margin-top: 20px;
 }
 
-#menu li{
+#menu li {
     list-style: none;
     display: inline-block;
     margin: 20px;
     margin-left: 0px;
 }
 
-#menu li a{
+#menu li a {
     color: #fff;
     text-decoration: none;
     font-size: 15px;
 }
 
-.txt_btn{
+.txt_btn {
     color: #CE9E51;
     font-weight: 200;
 }
 
-.relative{
+.relative {
     position: relative;
 }
 
-.page-width{
-    padding:0 120px;
+.page-width {
+    padding: 0 120px;
 }
 
-.Bhasinmenu{
-    background-image: url('images/hero-image-min.jpg');
+.Bhasinmenu {
+    background-image: url('images/image.webp');
     height: 100vh;
-  width: 100%;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.imghero{
+/* .imghero {
     background-color: transparent;
     background-image: linear-gradient(90deg, #212D45 100%, #FFFFFF 100%);
     opacity: 0.87;
@@ -111,21 +117,21 @@ header{
     top: 0;
     left: 0;
     position: absolute;
-}
+} */
 
-.icons a img{
+.icons a img {
     max-width: 115px;
     width: 100%;
     height: auto;
 }
 
-.allicons svg{
+.allicons svg {
     width: 25px;
     height: 25px;
-    fill:#ffc03d;
+    fill: #ffc03d;
 }
 
-.allicons{
+.allicons {
     display: flex;
     gap: 9.5px;
 }
@@ -147,35 +153,36 @@ header{
     border-bottom-style: solid;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.icons p{
+.icons p {
     color: #ffc03d;
 }
 
-.icons a{
+.icons a {
     color: #fff;
 }
 
-.txt_btn h3{
+.txt_btn h3 {
     color: #ffc03d;
     text-align: center;
 }
 
-.herotxtheadbtn h1, .herotxtheadbtn p{
+.herotxtheadbtn h1,
+.herotxtheadbtn p {
     color: #FFFFFF;
     margin: 1.6rem 3.8rem;
     text-align: center;
 }
 
-.txt_btn{
+.txt_btn {
     position: relative;
     margin-top: 115px;
 }
 
-.call_num_stly{
+.call_num_stly {
     fill: #FFFFFF;
     color: #FFFFFF;
     padding: 15px 45px;
@@ -186,19 +193,20 @@ a{
     margin: auto;
 }
 
-.call_num_stly a{
+.call_num_stly a {
     text-decoration: none;
 }
 
-.call_num_stly span{    
+.call_num_stly span {
     color: #fff;
 }
-.call_num_stly span svg{    
+
+.call_num_stly span svg {
     width: 23px;
 }
 
-.hero_call{
-    gap: 3px;    
+.hero_call {
+    gap: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -253,7 +261,7 @@ section#why_choose_us {
     align-items: center;
 }
 
-.why_txt{
+.why_txt {
     display: flex;
     flex-direction: column;
     gap: 23px;
@@ -261,15 +269,16 @@ section#why_choose_us {
     color: #fff;
 }
 
-.why_txt p{
+.why_txt p {
     line-height: 1.8;
 }
 
-.why_btn a{
+.why_btn a {
     color: #000000;
 }
 
-.why_txt h4, .why_txt h2{
+.why_txt h4,
+.why_txt h2 {
     color: #FFFFFF;
 }
 
@@ -281,19 +290,19 @@ section#why_choose_us {
     padding: 15px 45px;
 }
 
-.why_btn svg{
+.why_btn svg {
     width: 19px;
     height: 19px;
 }
 
-.why_call{
+.why_call {
     display: flex;
     gap: 3px;
     justify-content: center;
     align-items: center;
 }
 
-.svgttl img{
+.svgttl img {
     width: 91.5px;
     height: 91.5px;
     margin-bottom: 15px;
@@ -314,7 +323,7 @@ section#why_choose_us {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   gap: 16px;
+    gap: 16px;
     margin: 80px 0;
 }
 
@@ -323,7 +332,7 @@ section#why_choose_us {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
+
 }
 
 .svgttl {
@@ -334,17 +343,17 @@ section#why_choose_us {
     text-align: center;
 }
 
-.ourprojsvg p{
+.ourprojsvg p {
     text-align: center;
     line-height: 1.8;
 }
 
-.imgcard{
+.imgcard {
     width: 312px;
     height: 314px;
 }
 
-.imgcard img{
+.imgcard img {
     height: -webkit-fill-available;
 }
 
@@ -359,7 +368,7 @@ section#why_choose_us {
     width: 100%;
 }
 
-.revttl h2{
+.revttl h2 {
     text-align: center;
     line-height: 1.4;
     margin-left: 93px;
@@ -369,25 +378,29 @@ section#why_choose_us {
 .revimg {
     display: flex;
     justify-content: center;
-    gap:17px;
+    gap: 17px;
     align-items: center;
 }
 
-#reviews{
+#reviews {
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
+.servicestyle{
+    padding-bottom: 30px;
+}
+
 /* contact */
 
-.gmap{
+.gmap {
     padding: 0 20px;
     padding-left: 0;
     width: 50%;
     margin: 80px 0px 80px 0px;
 }
 
-.gmap iframe{
+.gmap iframe {
     width: 100%;
 }
 
@@ -399,17 +412,17 @@ section#why_choose_us {
     padding: 60px 0px 60px 0px;
 }
 
-.detail{
+.detail {
     width: 40%;
 }
 
-.lftdet h2{
+.lftdet h2 {
     color: #FFFFFF;
     width: 100%;
     border-bottom: 1px solid rgba(189, 189, 189, 0.18);
 }
 
-.lftdet{
+.lftdet {
     box-shadow: 0px 0px 20px 0px rgba(33, 33, 33, 0.25);
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     height: 100%;
@@ -425,35 +438,36 @@ section#why_choose_us {
     align-items: flex-start;
 }
 
-.callhead{
+.callhead {
     margin-bottom: 15px;
     color: #FFFFFF;
     font-size: 1.3333333333333rem;
     font-weight: 700;
 }
 
-.lftdet p{
+.lftdet p {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
+    color: #fff;
 }
 
-.count{
+.count {
     margin-top: 80px;
     width: 50%;
 }
 
-.propyear{
+.propyear {
     display: flex;
     width: 100%;
 }
 
-.clients_testi{
+.clients_testi {
     width: 100%;
     display: flex;
 }
 
-.countparaone{
+.countparaone {
     border-style: solid;
     border-width: 0px 1px 1px 0px;
     background: #fff;
@@ -468,7 +482,7 @@ section#why_choose_us {
     padding: 50px 50px 50px 50px;
 }
 
-.countparatwo{
+.countparatwo {
     border-style: solid;
     border-width: 0px 1px 1px 0px;
     background: #fff;
@@ -513,34 +527,35 @@ p.countparafourth {
     padding: 50px 50px 50px 50px;
 }
 
-.why_num{
+.why_num {
     font-size: 2.6666666666667rem;
     font-weight: 700;
-    color:#212d45;
+    color: #212d45;
 }
 
-.NavFootstyl{
+.NavFootstyl {
     background: #212D45;
     padding: 20px 60px;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-footer p, footer span{
+footer p,
+footer span {
     color: #fff;
 }
 
-footer nav{
+footer nav {
     display: flex;
     gap: 19px;
 }
 
-.iconH{
-    display: none ;
+.iconH {
+    display: none;
 }
 
 .active {
@@ -552,77 +567,53 @@ footer nav{
 }
 
 
-#menu .hmen{
+#menu .hmen {
     color: #ffc03d;
-    }
+}
 
-    .lftdet span{
-        color: #fff;
-    }
+.lftdet span {
+    color: #fff;
+}
 
-    .floatwid {
-        cursor: pointer;
-        display: inline-block;
-        font-size: 13px;
-        padding: 13px 10px 13px 11px;
-        text-align: center;
-        text-decoration: none;
-        user-select: none;
-        -webkit-user-select: none;
-        touch-action: manipulation;
-        vertical-align: middle;
-        width: max-content;
-        writing-mode: vertical-lr;
-      }
+#floatingwidget {
+    width: fit-content;
+    position: fixed;
+    top: 50%;
+    right: 1%;
+    z-index: 9;
+}
 
-      #floatingwidget{
-        position: fixed;
-        z-index: 9;
-        width: auto;
-        right: 0px;
-        bottom: 20%;
-      }
+.floatwid a svg {
+    width: 49px;
+    height: 49px;
+    background: #fff;
+    border-radius: 50%;
+}
 
-      .floatwid a{
-        text-orientation: upright;
-        font-weight: bolder;
-        font-size: 19px;
-        color: #ffc03d;
-        background: #fff;
-        width: 100%;
-        display: flex;
-        border-radius: 50%;
-      }
+.floatwid:hover {
+    background-color: #f7fafa;
+}
 
-      .floatwid a svg{
-        width: 49px;
-  height: 49px;
-      }
-      
-      .floatwid:hover {
-        background-color: #f7fafa;
-      }
-      
-      .floatwid:focus {
-        border-color: #008296;
-        box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
-        outline: 0;
-      }
+.floatwid:focus {
+    border-color: #008296;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    outline: 0;
+}
 
 @media (max-width:768px) {
 
-    
-    #floatingwidget{
-        top: 50%;
-      }
 
-    .call_num_stly{
+    #floatingwidget {
+        top: 50%;
+    }
+
+    .call_num_stly {
         margin-top: 93px;
     }
 
-    .iconH{
+    .iconH {
         display: block;
-   
+
     }
 
     .iconH:before {
@@ -630,12 +621,15 @@ footer nav{
         transform: rotate(0deg);
         display: block;
     }
-    .page-width{
-     padding: 0 19px;
+
+    .page-width {
+        padding: 0 19px;
     }
 
-    .phonenum,.phoneanc,.mainmenu{
-    display: none ;
+    .phonenum,
+    .phoneanc,
+    .mainmenu {
+        display: none;
     }
 
     .icons {
@@ -650,24 +644,26 @@ footer nav{
         flex-direction: column;
     }
 
-    section#why_choose_us{
-        flex-direction: column;padding: 0;
+    section#why_choose_us {
+        flex-direction: column;
+        padding: 0;
     }
 
-    .excellecne, .count{
+    .excellecne,
+    .count {
         width: 100%;
         margin: 0;
     }
 
-    h3{
+    h3 {
         font-size: 20px;
     }
 
-    h1{
+    h1 {
         font-size: 40px;
     }
 
-    h2{
+    h2 {
         font-size: 30px;
     }
 
@@ -679,25 +675,29 @@ footer nav{
         margin-top: 73px;
     }
 
-    .herotxtheadbtn h1, .herotxtheadbtn p {
+    .herotxtheadbtn h1,
+    .herotxtheadbtn p {
         margin: 1.6rem 0;
     }
 
-    .countparaone,.countparatwo,p.countparathree,p.countparafourth{
+    .countparaone,
+    .countparatwo,
+    p.countparathree,
+    p.countparafourth {
         padding: 25px 25px 25px 25px;
     }
 
-    .excellecne{
+    .excellecne {
         padding: 50px 19px;
     }
 
-    .mainmenu{
+    .mainmenu {
         background: #ffff;
         margin-top: 0;
         width: 100%;
     }
 
-    .mainmenu ul{
+    .mainmenu ul {
         display: flex;
         flex-direction: column;
         padding-left: 19px;
@@ -706,24 +706,29 @@ footer nav{
         width: 100%;
     }
 
-    .ourprojhead h4, .revttl h4{
+    .ourprojhead h4,
+    .revttl h4 {
         text-align: center;
     }
 
-    .ourprojhead{margin-bottom: 40px;}
+    .ourprojhead {
+        margin-bottom: 40px;
+    }
 
     #menu li a {
         color: #4b4f58;
     }
 
-    .fa-bars:before{
+    .fa-bars:before {
         color: #ffc03d;
     }
-    .map_detail{
+
+    .map_detail {
         flex-direction: column;
     }
 
-    .gmap,.detail{
+    .gmap,
+    .detail {
         width: 100%;
         padding: 0;
         margin: 0;
@@ -731,18 +736,20 @@ footer nav{
 
     .revimg {
         display: block;
-    grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
-    .revttl h2{
+    .revttl h2 {
         margin: 0;
         margin-bottom: 16px;
     }
 
-    .why_btn{display: none;}
+    .why_btn {
+        display: none;
+    }
 
     .why_txt {
-        gap:0;
+        gap: 0;
     }
 
     .imgcard {
@@ -750,23 +757,24 @@ footer nav{
         height: 100%;
     }
 
-    .NavFootstyl{
+    .NavFootstyl {
         padding: 20px;
     }
 
-    footer{
+    footer {
         flex-direction: column;
     }
 
     footer nav {
         flex-direction: column;
-        gap:13px;
+        gap: 13px;
         text-align: center;
         margin-bottom: 9px;
     }
 
-        footer p, footer span {
-            text-align: center;
-            margin-bottom: 12px;
-        }
+    footer p,
+    footer span {
+        text-align: center;
+        margin-bottom: 12px;
+    }
 }
